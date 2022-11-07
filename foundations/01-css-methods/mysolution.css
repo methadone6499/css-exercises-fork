@@ -1,0 +1,51 @@
+/*selectors selects the html elements to which css rules apply*/
+/*universal selector will select elements of any type
+* {
+    color:purple;
+}
+
+/*
+TYPE SELECTORS
+<div>Hello, World!</div>
+<div>Hello again!</div>
+<p>Hi...</p>
+<div>Okay, bye.</div>
+
+
+div {
+    color: white;
+}
+
+/*
+CLASS SELECTORS
+class selectors will select all elements with the given class
+
+<div class="alert-text">
+  Please agree to our terms of service.
+</div>
+
+
+.alert-text {
+    color: red;
+  }
+
+/*ID SELECTORS are similar to class selectors.
+They select an element with the given ID
+<div id="title">bruh</div>
+
+#title{
+    background-color:red;
+}
+* `div`: a red background, white text, a font size of 32px, center aligned, and bold
+* `p`: a green background, white text, and a font size of 18px
+* `button`: an orange background and a font size of 18px
+
+*/
+
+.test{
+  background-color:red;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
